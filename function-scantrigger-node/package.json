@@ -1,15 +1,14 @@
 {
-  "name": "function_malware_scanner",
+  "name": "gcs-malware-scanner-function",
   "version": "1.0.0",
   "description": "Triggers the Malware Scanner service when a document is uploaded to GCS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Google Inc.",
-  "license": "Apache-2.0",
+  "author": "Dennis Riungu",
+  "license": "MIT",
   "dependencies": {
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "axios": "^0.19.2"
   }
 }
